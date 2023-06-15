@@ -3,7 +3,6 @@
 import { TradiverseCli } from '@tradiverse/cli-lib';
 import axios from 'axios';
 
-
 const authToken = process.env.SPACE_AUTH_TOKEN;
 const httpRequest = async r => (await axios(r))?.data;
 

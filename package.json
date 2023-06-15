@@ -1,20 +1,19 @@
 {
   "name": "@tradiverse/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "cli.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/index.js"
   },
   "bin": {
     "tradiverse": "./bin/index.js"
   },
-  "author": "",
+  "author": "Lenny Urbanowski",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@tradiverse/cli-lib": "^1.0.0",
+    "@tradiverse/cli-lib": "^1.0.1",
     "axios": "^1.4.0"
   }
 }
